@@ -6,7 +6,9 @@ Allman notation
 **************
 
 Changelog:
+- Mar 2, 2018: Finish job 10 - Inochi Tanaka
 - Mar 1, 2018: Finish Job 9 - Ken Dao
+- Mar 1, 2018: Finish job 8 - Inochi Tanaka
 - Mar 1, 2018: Finish job 7 - Yan Wang
 - Mar 1, 2018: Finish Job 6 - Yan Wang
 - Feb 17, 2018: Finished Job 5 - Inochi Tanaka

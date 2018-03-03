@@ -19,6 +19,7 @@
                 <h1>{pagetitle}</h1>
                 {content}
             </div>
+            <Hr>
             <div id="footer" class="span12">
                 Copyright &copy; 2018,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>

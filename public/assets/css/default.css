@@ -53,3 +53,32 @@ p.footer {
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
 }
+
+
+.inputForm
+{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+label
+{
+   width: 120px; 
+   padding-right: 10px;
+}
+
+.formButton1
+{
+    padding-left: 120px;
+}
+
+.formButton2
+{
+    margin-top: 20px;
+    padding-left: 120px;
+}
+
+.attend
+{
+    height: 30px;
+}
