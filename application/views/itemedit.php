@@ -2,6 +2,9 @@
 <form class="inputForm" role="form" action="/mtce/submit" method="post">
     {ftask} <p></p>
     {fpriority} <p></p>
+    {fsize}
+    {fgroup}
+    {fstatus}
     <div class="formButton1">
             {zsubmit}
     </div>
