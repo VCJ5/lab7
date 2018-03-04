@@ -1,3 +1,4 @@
+{pagination}
 <table class="table">
         <tr>
                 <th>Id</th>
@@ -6,3 +7,5 @@
         </tr>
         {display_tasks}
 </table>
+
+
