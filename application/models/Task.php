@@ -11,7 +11,7 @@ class Task extends Entity {
     private $task;
     private $priority;
     private $size;
-    private $group;
+    private $assignee;
     
     public function setTask($value)
     {
@@ -46,15 +46,12 @@ class Task extends Entity {
         $this->size = $value;
     }
     
-    public function setGroup($value)
+    public function setAssignee($value)
     {
-        if (!is_int($value)) {
-            throw new Exception('Must be an integer');
-        }
-        if ($value < 1 || $value > 5) {
-            throw new Exception('Must be between 1 to 5');
-        }
-        $this->group = $value;
+        $allowed = ['Ken', 'Yan', 'Inochi'];
+        if (!in_array($value, $allowed))
+            throw new Exception('The assignee must be in our group');
+        $this->assignee = $value;
     }
     
     public function getTask() {
@@ -69,7 +66,7 @@ class Task extends Entity {
         return $this->size;
     }
     
-    public function getGroup() {
-        return $this->group;
+    public function getAssignee() {
+        return $this->assignee;
     }
 } 
