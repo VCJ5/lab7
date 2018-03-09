@@ -48,7 +48,7 @@ class Task extends Entity {
     
     public function setAssignee($value)
     {
-        $allowed = ['Ken', 'Yan', 'Inochi'];
+        $allowed = ['Ken', 'Yan', 'Inochi', "ken", "yan", "inochi"];
         if (!in_array($value, $allowed))
             throw new Exception('The assignee must be in our group');
         $this->assignee = $value;
