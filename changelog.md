@@ -6,6 +6,10 @@ Allman notation
 **************
 
 Changelog:
+- Mar 8, 2018: add getter in Entity class - Yan
+               build task.php and implement it - Yan
+               add tests folder and bootstrap.php - Yan
+               
 - Mar 3, 2018: Finish Job 11 - Ken Dao
 - Mar 2, 2018: Finish job 10 - Inochi Tanaka
 - Mar 1, 2018: Finish Job 9 - Ken Dao
