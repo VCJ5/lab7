@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "classmap": [
+            "application/models/"
+        ]
+    },
     "require-dev": {
         "phpunit/phpunit": "^6"
     }
