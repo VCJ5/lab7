@@ -6,6 +6,9 @@ Allman notation
 **************
 
 Changelog:
+
+- Mar 8, 2018: Add a phpunit.xml to the root of your project - Inochi 
+
 - Mar 8, 2018: add getter in Entity class - Yan
                build task.php and implement it - Yan
                add tests folder and bootstrap.php - Yan
