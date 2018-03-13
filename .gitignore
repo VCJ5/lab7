@@ -15,7 +15,7 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
-tests/code-coverage/
+tests/coverage/
 /nbproject/private/
 /nbproject/
 composer.lock
