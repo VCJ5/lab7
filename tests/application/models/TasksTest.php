@@ -7,7 +7,7 @@ class TasksTest  extends TestCase {
         $this->CI = &get_instance();
         $this->CI->load->model('Tasks');
         $this->CI->load->model('Task');
-        $this->task = new Task();
+        $this->tasklist = new Tasks();
     }
     
     function testMoreUncompleted()
@@ -15,16 +15,16 @@ class TasksTest  extends TestCase {
         // add 6 fruits
         foreach ($array as $value) 
         {
-            $task = new Fruit();
+            $task = new Task();
             $task->id = $i;
-            $this->bowl->add($fruit);
+            $this->tasklist->add($task);
         }
         // make sure we're there
-        $this->assertEquals(6,$this->bowl->size());
+        $this->assertEquals(14,$this->tasklist->size());
         // make sure we can't add a 7th
-        $fruit = new Fruit();
-        $fruit->id = 7;
+        $task = new Task();
+        $task->id = 7;
         $this->expectException(Exception::class);
-        $this->bowl->add($fruit);
+        $this->tasklist->add($task);
     }
 }
