@@ -21,6 +21,7 @@ class Task extends Entity {
         if (strlen($value) > 10) {
             throw new Exception('task name is too long');
         }
+        
         $this->task = $value;
     }
 
