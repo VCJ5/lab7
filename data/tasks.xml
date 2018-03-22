@@ -3,7 +3,7 @@
 <tasks>
   <task>
     <id>1</id>
-    <name>COMP1234 assignment</name>
+    <task>COMP1234 assignment</task>
     <priority>3</priority>
     <size>3</size>
     <group>2</group>
@@ -14,7 +14,7 @@
 
   <task>
     <id>2</id>
-    <name>Mow the lawn</name>
+    <task>Mow the lawn</task>
     <priority>2</priority>
     <size>2</size>
     <group>1</group>
@@ -25,7 +25,7 @@
 
   <task>
     <id>3</id>
-    <name>Wash the car</name>
+    <task>Wash the car</task>
     <priority>2</priority>
     <size>2</size>
     <group>1</group>
@@ -36,7 +36,7 @@
   
   <task>
     <id>4</id>
-    <name>Paint the fence</name>
+    <task>Paint the fence</task>
     <priority>1</priority>
     <size>2</size>
     <group>1</group>
@@ -47,7 +47,7 @@
   
   <task>
     <id>6</id>
-    <name>Intramural hockey game</name>
+    <task>Intramural hockey game</task>
     <priority>1</priority>
     <size>2</size>
     <group>4</group>
@@ -58,7 +58,7 @@
   
   <task>
     <id>7</id>
-    <name>Canucks hockey game</name>
+    <task>Canucks hockey game</task>
     <priority/>
     <size/>
     <group>7</group>
@@ -69,7 +69,7 @@
   
   <task>
     <id>8</id>
-    <name>Buy steel-toed boots</name>
+    <task>Buy steel-toed boots</task>
     <priority>2</priority>
     <size>1</size>
     <group>3</group>
@@ -80,7 +80,7 @@
   
   <task>
     <id>9</id>
-    <name>Learn French</name>
+    <task>Learn French</task>
     <priority>1</priority>
     <size>3</size>
     <group>3</group>
@@ -91,7 +91,7 @@
   
   <task>
     <id>10</id>
-    <name>Make a game</name>
+    <task>Make a game</task>
     <priority>3</priority>
     <size>1</size>
     <group>3</group>
@@ -102,7 +102,7 @@
   
   <task>
     <id>11</id>
-    <name>Pay bills</name>
+    <task>Pay bills</task>
     <priority>3</priority>
     <size>1</size>
     <group>1</group>
@@ -113,7 +113,7 @@
 
   <task>
     <id>12</id>
-    <name>Meet George</name>
+    <task>Meet George</task>
     <priority>2</priority>
     <size>1</size>
     <group>1</group>
@@ -124,7 +124,7 @@
 
   <task>
     <id>13</id>
-    <name>Buy milk &amp; bread</name>
+    <task>Buy milk &amp; bread</task>
     <priority>2</priority>
     <size>1</size>
     <group>1</group>
@@ -135,7 +135,7 @@
 
   <task>
     <id>14</id>
-    <name>Read War &amp; Peace</name>
+    <task>Read War &amp; Peace</task>
     <priority>1</priority>
     <size>3</size>
     <group>1</group>
@@ -146,7 +146,7 @@
 
   <task>
     <id>15</id>
-    <name>Organize the study</name>
+    <task>Organize the study</task>
     <priority>1</priority>
     <size>4</size>
     <group>1</group>
