@@ -11,7 +11,6 @@ Changelog:
 
 - Mar 21, 2018: Add data/tasks.xml with a "mixed" approach. - Yan
                 Fix tasks.csv file. - Yan
-
 - Mar 10, 2018: Add code coverage folder and Travis CI to project's repository - Ken Dao 
 - Mar 8, 2018: Add a phpunit.xml to the root of your project - Inochi 
 - Mar 8, 2018: add getter in Entity class - Yan
