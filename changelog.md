@@ -6,10 +6,9 @@ Allman notation
 **************
 
 Changelog:
-
+- Mar 22, 2018:  Modify Model Storing - Ken Dao
 - Mar 21, 2018: Switched from CSV_model to XML_Model. - Inochi
                 Fix tasks.xml file. - Inochi
-
 - Mar 21, 2018: Add data/tasks.xml with a "mixed" approach. - Yan
                 Fix tasks.csv file. - Yan
 - Mar 10, 2018: Add code coverage folder and Travis CI to project's repository - Ken Dao 

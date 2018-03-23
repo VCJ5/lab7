@@ -152,12 +152,15 @@ class XML_Model extends Memory_Model
 		$xmlDoc = new DOMDocument( "1.0");
         $xmlDoc->preserveWhiteSpace = false;
         $xmlDoc->formatOutput = true;
-        $data = $xmlDoc->createElement($this->xml->getName());
+        $xmlDoc->loadXML($this->xml->getName());
+        $data = simplexml_import_dom(xmlDoc);
         foreach($this->_data as $key => $value)
         {
-            $task  = $xmlDoc->createElement($this->xml->children()->getName());
+            $xmlDoc->loadXML($this->xml->children()->getName());
+            $task = simplexml_import_dom(xmlDoc);
             foreach ($value as $itemkey => $record ) {
-                $item = $xmlDoc->createElement($itemkey, htmlspecialchars($record));
+                $xmlDoc->loadXML($itemkey, htmlspecialchars($record));
+                $item = simplexml_import_dom(xmlDoc);
                 $task->appendChild($item);
                 }
                 $data->appendChild($task);
